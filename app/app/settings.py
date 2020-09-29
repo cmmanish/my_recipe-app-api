@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'rest_framework.authtoken',
     'core',
+    'playerstats',
 ]
 
 MIDDLEWARE = [
@@ -128,5 +129,3 @@ MEDIA_URL = '/media/'
 
 MEDIA_ROOT = '/vol/web/media'
 STATIC_ROOT = '/vol/web/static'
-
-AUTH_USER_MODEL = 'core.User'
